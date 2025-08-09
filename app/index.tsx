@@ -1,9 +1,9 @@
-// app/index.tsx or App.tsx (depending on your structure)
+// app/index.tsx
 import React from 'react';
 import { SafeAreaView, StatusBar } from 'react-native';
 import LoginScreen from '../screens/LoginScreen';
 
-export default function App() {
+export default function Index() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <StatusBar barStyle="dark-content" />
@@ -11,5 +11,3 @@ export default function App() {
     </SafeAreaView>
   );
 }
-
-
